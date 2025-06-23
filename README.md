@@ -52,6 +52,10 @@ This project is an AI-powered chatbot built with <strong>Voiceflow</strong> for 
     <td><b>CI/CD</b></td>
     <td>GitHub Actions</td>
   </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>Node.js and Express.js</td>
+  </tr>
 </table>
 
 ---
