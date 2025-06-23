@@ -67,18 +67,6 @@ This project is an AI-powered chatbot built with <strong>Voiceflow</strong> for 
 
 ---
 
-## 📸 Screenshots
-
-<table>
-  <tr>
-    <td align="center"><b>Voiceflow Conversation Flow</b></td>
-    <td align="center"><b>Shopify Integration Dashboard</b></td>
-  </tr>
-  <tr>
-    <td><img src="docs/voiceflow-flow.png" width="400px" /></td>
-    <td><img src="docs/shopify-integration.png" width="400px" /></td>
-  </tr>
-</table>
 
 ---
 
@@ -93,6 +81,53 @@ This project is an AI-powered chatbot built with <strong>Voiceflow</strong> for 
 
 ### 📦 Installation
 
-```bash
+bash
 git clone https://github.com/your-username/voiceflow-shopify-chatbot.git
 cd voiceflow-shopify-chatbot
+
+Create a .env file:
+
+env
+Copy
+Edit
+OPENAI_API_KEY=your-openai-api-key
+AIRTABLE_API_KEY=your-airtable-key
+SHOPIFY_API_KEY=your-shopify-key
+SHOPIFY_PASSWORD=your-shopify-password
+Install and run:
+
+bash
+Copy
+Edit
+npm install
+npm run dev
+📂 Project Structure
+text
+Copy
+Edit
+voiceflow/              → Voiceflow JSON flows
+backend/                → Node.js or Python backend
+docs/                   → Images and documentation
+.github/workflows/      → GitHub Actions workflows
+.env.example            → Environment variable example
+README.md               → Project documentation
+🧠 Future Enhancements
+🌍 Multilingual support
+
+📊 Customer interaction analytics
+
+💬 Embed chatbot widget on store frontend
+
+⭐ Product review and rating feedback system
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+🙏 Acknowledgements
+<a href="https://www.voiceflow.com/" target="_blank">Voiceflow</a>
+
+<a href="https://openai.com/" target="_blank">OpenAI</a>
+
+<a href="https://shopify.dev/" target="_blank">Shopify Developers</a>
+
+<a href="https://airtable.com/" target="_blank">Airtable</a>
